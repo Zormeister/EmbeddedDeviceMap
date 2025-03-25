@@ -1,2 +1,11 @@
-rpi3b,rpi,bcm2837,"RaspberryPi,3",arm64,bcm2837,darwin
-rpi4b,rpi,bcm2711,"RaspberryPi,4",arm64,bcm2711,darwin
+rpi3b,rpi,bcm2837,"RaspberryPi3,2",arm64,bcm2837,macosx
+rpi4b,rpi,bcm2711,"RaspberryPi4,2",arm64,bcm2711,macosx
+rpi5m4,rpi,bcm2712,"RaspberryPi5,1",arm64,bcm2712,macosx
+rpi5m8,rpi,bcm2712,"RaspberryPi5,2",arm64,bcm2712,macosx
+rpi5m2,rpi,bcm2712,"RaspberryPi5,3",arm64,bcm2712,macosx
+rpi5m2r1,rpi,bcm2712d0,"RaspberryPi5,4",arm64,bcm2712d0,macosx
+rpi5m4r1,rpi,bcm2712d0,"RaspberryPi5,5",arm64,bcm2712d0,macosx
+rpi5m8r1,rpi,bcm2712d0,"RaspberryPi5,6",arm64,bcm2712d0,macosx
+rpi5m16r1,rpi,bcm2712d0,"RaspberryPi5,7",arm64,bcm2712d0,macosx
+cmpi5m2,rpi,bcm2712,"ComputePi5,1",arm64,bcm2712,macosx
+cmpi5m4,rpi,bcm2712,"ComputePi5,2",arm64,bcm2712,macosx
