@@ -9,3 +9,4 @@ rpi5m8r1,rpi,bcm2712d0,"RaspberryPi5,6",arm64,bcm2712d0,macosx
 rpi5m16r1,rpi,bcm2712d0,"RaspberryPi5,7",arm64,bcm2712d0,macosx
 cmpi5m2,rpi,bcm2712,"ComputePi5,1",arm64,bcm2712,macosx
 cmpi5m4,rpi,bcm2712,"ComputePi5,2",arm64,bcm2712,macosx
+n61ap,n61,t7000,"iPhone7,1",arm64,t7000,macosx
