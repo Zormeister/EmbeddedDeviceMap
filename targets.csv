@@ -1,6 +1,9 @@
-rpi3b,rpi3b,bcm2837,"RaspberryPi3,2",arm64,bcm2837,macosx
-rpi3bx,rpi3bx,bcm2837,"RaspberryPi3,3",arm64,bcm2837,macosx
+rpi3b,rpi3b,bcm2837,"RaspberryPi3,1",arm64,bcm2837,macosx
+rpi3bx,rpi3bx,bcm2837,"RaspberryPi3,2",arm64,bcm2837,macosx
+rpi3ax,rpi3bx,bcm2837,"RaspberryPi3,3",arm64,bcm2837,macosx
 rpi4b,rpi4b,bcm2711,"RaspberryPi4,2",arm64,bcm2711,macosx
+kbpi4,kbpi4,bcm2711,"KeyboardPi4,1",arm64,bcm2711,macosx
+cmpi4,cmpi4,bcm2711,"ComputePi4,1",arm64,bcm2711,macosx
 rpi5,rpi5,bcm2712,"RaspberryPi5,1",arm64,bcm2712,macosx
 rpi5r1,rpi5r1,bcm2712d0,"RaspberryPi5,2",arm64,bcm2712,macosx
 cmpi5,cmpi5,bcm2712,"ComputePi5,1",arm64,bcm2712,macosx
@@ -12,3 +15,7 @@ n71m,n71,s8003,"iPhone8,1",arm64,s8000,macosx
 j127,j127,s8001,"iPad6,3",arm64,s8001,macosx
 d101,d101,t8010,"iPhone9,3",arm64,t8010,macosx
 j207,j207,t8011,"iPad7,3",arm64,t8011,macosx
+d53p,d53p,t8101,"iPhone13,3",arm64,t8101,macosx
+j293,j293,t8103,"MacBookPro17,1",arm64e,t8103,macosx
+j314s,j314,t6000,"MacBookPro18,3",arm64e,t6000,macosx
+j413,j413,t8112,"Mac14,2",arm64e,t8112,macosx
