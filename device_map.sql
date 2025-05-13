@@ -46,7 +46,9 @@ CREATE TABLE Targets
         COLLATE NOCASE,
     KernelMachOArchitecture TEXT,
     KernelPlatform TEXT,
-    SDKPlatform TEXT
+    SDKPlatform TEXT,
+    ChipID TEXT,
+    BoardID TEXT
 );
 
 /*
