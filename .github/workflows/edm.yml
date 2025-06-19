@@ -9,14 +9,14 @@ jobs:
       steps:
         - name: Clone
           uses: actions/checkout@v2
-        - name: Install Embedded Device Map
+        - name: Build
           run: |
             make DESTDIR=$PWD/DSTROOT install
-        - name: Package Kernel into tarball
+        - name: Package
           run: |
             cd $PWD/DSTROOT
             tar -cvf EmbeddedDeviceMap-1.tar.xz .
-        - name: Upload Kernel Root tarball
+        - name: Upload
           if: success()
           uses: actions/upload-artifact@v4
           with:
