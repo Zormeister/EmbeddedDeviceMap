@@ -101,11 +101,11 @@ END;
 CREATE TRIGGER insert_into_files AFTER INSERT ON Manifests
 BEGIN
     INSERT INTO Files (manifestId, fileType)
-        SELECT m.manifestId, "KernelCache" as fileType FROM Manifests m INNER JOIN Targets t ON t.Target == m.Target
-        WHERE NOT EXISTS (SELECT manifestId, fileType FROM Files f WHERE f.manifestId = m.manifestId AND f.fileType = "KernelCache")
+        SELECT m.manifestId, 'KernelCache' as fileType FROM Manifests m INNER JOIN Targets t ON t.Target == m.Target
+        WHERE NOT EXISTS (SELECT manifestId, fileType FROM Files f WHERE f.manifestId = m.manifestId AND f.fileType = 'KernelCache')
         UNION
-        SELECT m.manifestId, "RestoreKernelCache" as fileType FROM Manifests m INNER JOIN Targets t ON t.Target == m.Target
-        WHERE NOT EXISTS (SELECT manifestId, fileType FROM Files f WHERE f.manifestId = m.manifestId AND f.fileType = "RestoreKernelCache");
+        SELECT m.manifestId, 'RestoreKernelCache' as fileType FROM Manifests m INNER JOIN Targets t ON t.Target == m.Target
+        WHERE NOT EXISTS (SELECT manifestId, fileType FROM Files f WHERE f.manifestId = m.manifestId AND f.fileType = 'RestoreKernelCache');
 END;
 
 /*
