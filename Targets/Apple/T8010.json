@@ -1,0 +1,101 @@
+[
+    {
+        "Target": "D10AP",
+        "TargetType": "d10",
+        "Platform": "T8010",
+        "ProductType": "iPhone9,1",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T8010",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8010",
+        "BoardID": "0x08"
+    },
+    {
+        "Target": "D11AP",
+        "TargetType": "d11",
+        "Platform": "T8010",
+        "ProductType": "iPhone9,2",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T8010",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8010",
+        "BoardID": "0x0A"
+    },
+    {
+        "Target": "D101AP",
+        "TargetType": "d101",
+        "Platform": "T8010",
+        "ProductType": "iPhone9,3",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T8010",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8010",
+        "BoardID": "0x0C"
+    },
+    {
+        "Target": "D111AP",
+        "TargetType": "d111",
+        "Platform": "T8010",
+        "ProductType": "iPhone9,4",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T8010",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8010",
+        "BoardID": "0x0E"
+    },
+    {
+        "Target": "N112AP",
+        "TargetType": "n112",
+        "Platform": "T8010",
+        "ProductType": "iPod9,1",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T8010",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8010",
+        "BoardID": "0x16"
+    },
+    {
+        "Target": "J71bAP",
+        "TargetType": "j71b",
+        "Platform": "T8010",
+        "ProductType": "iPad7,5",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T8010",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8010",
+        "BoardID": "0x18"
+    },
+    {
+        "Target": "J72bAP",
+        "TargetType": "j72b",
+        "Platform": "T8010",
+        "ProductType": "iPad7,5",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T8010",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8010",
+        "BoardID": "0x1A"
+    },
+    {
+        "Target": "J171AP",
+        "TargetType": "j171",
+        "Platform": "T8010",
+        "ProductType": "iPad7,11",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T8010",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8010",
+        "BoardID": "0x1C"
+    },
+    {
+        "Target": "J172AP",
+        "TargetType": "j172",
+        "Platform": "T8010",
+        "ProductType": "iPad7,12",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T8010",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8010",
+        "BoardID": "0x1E"
+    }
+]

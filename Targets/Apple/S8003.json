@@ -1,0 +1,57 @@
+[
+    {
+        "Target": "N71mAP",
+        "TargetType": "n71m",
+        "Platform": "S8003",
+        "ProductType": "iPhone8,1",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "S8000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8003",
+        "BoardID": "0x04"
+    },
+    {
+        "Target": "N66mAP",
+        "TargetType": "n66m",
+        "Platform": "S8003",
+        "ProductType": "iPhone8,2",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "S8000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8003",
+        "BoardID": "0x06"
+    },
+    {
+        "Target": "N69AP",
+        "TargetType": "n69u",
+        "Platform": "S8003",
+        "ProductType": "iPhone8,4",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "S8000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8003",
+        "BoardID": "0x02"
+    },
+    {
+        "Target": "J71tAP",
+        "TargetType": "j71t",
+        "Platform": "S8003",
+        "ProductType": "iPad6,11",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "S8000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8003",
+        "BoardID": "0x10"
+    },
+    {
+        "Target": "J72tAP",
+        "TargetType": "j72t",
+        "Platform": "S8003",
+        "ProductType": "iPad6,12",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "S8000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8003",
+        "BoardID": "0x12"
+    }
+]

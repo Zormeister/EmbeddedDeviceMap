@@ -109,7 +109,18 @@ BEGIN
 END;
 
 /*
- * Populate the Targets table from targets csv.
+ * Populate the Targets table from the devices.json file generated.
  */
-.mode csv
-.import targets.csv Targets
+
+INSERT INTO Targets SELECT 
+    json_extract(value, '$.Target'), 
+    json_extract(value, '$.TargetType'),
+    json_extract(value, '$.Platform'),
+    json_extract(value, '$.ProductType'),
+    json_extract(value, '$.KernelMachOArchitecture'),
+    json_extract(value, '$.KernelPlatform'),
+    json_extract(value, '$.SDKPlatform'),
+    json_extract(value, '$.ChipID'),
+    json_extract(value, '$.BoardID')
+FROM json_each(readfile('devices.json'));
+

@@ -9,6 +9,10 @@ jobs:
       steps:
         - name: Clone
           uses: actions/checkout@v2
+        - name: Install jsoncpp
+          run: |
+            export HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK=1
+            brew install jsoncpp
         - name: Build
           run: |
             make DESTDIR=$PWD/DSTROOT install

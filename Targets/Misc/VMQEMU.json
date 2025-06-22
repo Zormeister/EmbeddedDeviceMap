@@ -1,0 +1,13 @@
+[
+    {
+        "Target": "VMQEMUAP",
+        "TargetType": "vmqemu",
+        "Platform": "VMQEMU",
+        "ProductType": "VMQEMU1,1",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "VMQEMU",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x564D",
+        "BoardID": "0x01"
+    }
+]

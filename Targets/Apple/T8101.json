@@ -1,0 +1,90 @@
+[
+    {
+        "Target": "J307AP",
+        "TargetType": "j307",
+        "Platform": "T8101",
+        "ProductType": "iPad13,1",
+        "KernelMachOArchitecture": "arm64e",
+        "KernelPlatform": "T8101",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8101",
+        "BoardID": "0x04"
+    },
+    {
+        "Target": "J308AP",
+        "TargetType": "j308",
+        "Platform": "T8101",
+        "ProductType": "iPad13,2",
+        "KernelMachOArchitecture": "arm64e",
+        "KernelPlatform": "T8101",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8101",
+        "BoardID": "0x06"
+    },
+    {
+        "Target": "D54pAP",
+        "TargetType": "d54p",
+        "Platform": "T8101",
+        "ProductType": "iPhone13,4",
+        "KernelMachOArchitecture": "arm64e",
+        "KernelPlatform": "T8101",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8101",
+        "BoardID": "0x08"
+    },
+    {
+        "Target": "D52gAP",
+        "TargetType": "d52g",
+        "Platform": "T8101",
+        "ProductType": "iPhone13,1",
+        "KernelMachOArchitecture": "arm64e",
+        "KernelPlatform": "T8101",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8101",
+        "BoardID": "0x0A"
+    },
+    {
+        "Target": "D53gAP",
+        "TargetType": "d53g",
+        "Platform": "T8101",
+        "ProductType": "iPhone13,2",
+        "KernelMachOArchitecture": "arm64e",
+        "KernelPlatform": "T8101",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8101",
+        "BoardID": "0x0C"
+    },
+    {
+        "Target": "D53pAP",
+        "TargetType": "d53p",
+        "Platform": "T8101",
+        "ProductType": "iPhone13,3",
+        "KernelMachOArchitecture": "arm64e",
+        "KernelPlatform": "T8101",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8101",
+        "BoardID": "0x0E"
+    },
+    {
+        "Target": "J171aAP",
+        "TargetType": "j171a",
+        "Platform": "T8101",
+        "ProductType": "iPad11,6",
+        "KernelMachOArchitecture": "arm64e",
+        "KernelPlatform": "T8101",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8101",
+        "BoardID": "0x24"
+    },
+    {
+        "Target": "J172aAP",
+        "TargetType": "j172a",
+        "Platform": "T8101",
+        "ProductType": "iPad11,7",
+        "KernelMachOArchitecture": "arm64e",
+        "KernelPlatform": "T8101",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8101",
+        "BoardID": "0x26"
+    }
+]

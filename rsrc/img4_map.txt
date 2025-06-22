@@ -1,0 +1,25 @@
+| CPID | BORD | TargetType | Product                       | Target Identifier |
+| 2708 | 01   | rpib       | Raspi Model B                 | RaspberryPi1,1    |
+| 2708 | 02   | rpia       | Raspi Model A                 | RaspberryPi1,2    |
+| 2708 | 10   | cmpi1      | Raspi Compute Module 1        | ComputePi1,1      |
+| 2708 | 20   | rpibx      | Raspi Model B+                | RaspberryPi1,3    |
+| 2708 | 21   | rpiax      | Raspi Model A+                | RaspberryPi1,4    |
+| 2708 | 30   | rpizero    | Raspi Zero                    | MiniPi1,1         |
+| 2708 | 31   | rpizerow   | Raspi Zero W                  | MiniPi1,2         |
+| 2709 | 01   | rpi2       | Raspi 2 Model B               | RaspberryPi2,1    |
+| 2710 | 01   | rpi2r2     | Raspi 2 Model B (BCM2837)     | RaspberryPi2,2    |
+| 2710 | 10   | rpi3b      | Raspi 3 Model B               | RaspberryPi3,1    |
+| 2710 | 20   | rpi3bx     | Raspi 3 Model B+              | RaspberryPi3,2    |
+| 2710 | 21   | rpi3ax     | Raspi 3 Model A+              | RaspberryPi3,3    |
+| 2710 | 30   | rpizero2w  | Raspi Zero 2 W                | MiniPi2,1         |
+| 2711 | 01   | rpi4b      | Raspi 4 Model B               | RaspberryPi4,1    |
+| 2711 | 10   | kbpi4      | Raspi 400                     | KeyboardPi4,1     |
+| 2711 | 20   | cmpi4      | Raspi Compute Module 4        | ComputePi4,1      |
+| 2712 | 01   | rpi5b      | Raspi 5 Model B               | RaspberryPi5,1    |
+| 2712 | 10   | kbpi5      | Raspi 500                     | KeyboardPi5,1     |
+| 2712 | 20   | cmpi5      | Raspi Compute Module 5        | ComputePi5,1      |
+| 2712 | 30   | rpi5b      | Raspi 5 Model B (BCM2712D0)   | RaspberryPi5,2    |
+| 1136 | 01   | integcp    | ARM Integrator/CP             | IntegratorCP1,1   |
+| 1136 | 10   | versa      | ARM Versatile (ARM1136 CPU)   | ARMVersa1,1       |
+| 564D | 01   | vmqemu     | QEMU 'virt' Platform          | VMQEMU1,1         |
+| A150 | 01   | versa15    | ARM VersatileExpress + CT A15 | VersaExpress1,1   |

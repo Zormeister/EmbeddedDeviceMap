@@ -1,0 +1,90 @@
+[
+    {
+        "Target": "N56AP",
+        "TargetType": "n56",
+        "Platform": "T7000",
+        "ProductType": "iPhone7,1",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T7000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x7000",
+        "BoardID": "0x04"
+    },
+    {
+        "Target": "N61AP",
+        "TargetType": "n61",
+        "Platform": "T7000",
+        "ProductType": "iPhone7,2",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T7000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x7000",
+        "BoardID": "0x06"
+    },
+    {
+        "Target": "J96AP",
+        "TargetType": "j96",
+        "Platform": "T7000",
+        "ProductType": "iPad5,1",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T7000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x7000",
+        "BoardID": "0x08"
+    },
+    {
+        "Target": "J97AP",
+        "TargetType": "j97",
+        "Platform": "T7000",
+        "ProductType": "iPad5,2",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T7000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x7000",
+        "BoardID": "0x0A"
+    },
+    {
+        "Target": "N102AP",
+        "TargetType": "n102",
+        "Platform": "T7000",
+        "ProductType": "iPod7,1",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T7000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x7000",
+        "BoardID": "0x10"
+    },
+    {
+        "Target": "B238AP",
+        "TargetType": "b238",
+        "Platform": "T7000",
+        "ProductType": "AudioAccessory1,2",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T7000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x7000",
+        "BoardID": "0x1A"
+    },
+    {
+        "Target": "J42dAP",
+        "TargetType": "j42d",
+        "Platform": "T7000",
+        "ProductType": "AppleTV5,3",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T7000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x7000",
+        "BoardID": "0x34"
+    },
+    {
+        "Target": "B238aAP",
+        "TargetType": "b238a",
+        "Platform": "T7000",
+        "ProductType": "AudioAccessory1,1",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T7000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x7000",
+        "BoardID": "0x38"
+    }
+]

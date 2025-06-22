@@ -1,0 +1,68 @@
+[
+    {
+        "Target": "J314sAP",
+        "TargetType": "j314s",
+        "Platform": "T6000",
+        "ProductType": "MacBookPro18,3",
+        "KernelMachOArchitecture": "arm64e",
+        "KernelPlatform": "T6000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x6000",
+        "BoardID": "0x08"
+    },
+    {
+        "Target": "J316sAP",
+        "TargetType": "j316s",
+        "Platform": "T6000",
+        "ProductType": "MacBookPro18,1",
+        "KernelMachOArchitecture": "arm64e",
+        "KernelPlatform": "T6000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x6000",
+        "BoardID": "0x0A"
+    },
+    {
+        "Target": "J314cAP",
+        "TargetType": "j314c",
+        "Platform": "T6001",
+        "ProductType": "MacBookPro18,4",
+        "KernelMachOArchitecture": "arm64e",
+        "KernelPlatform": "T6000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x6001",
+        "BoardID": "0x08"
+    },
+    {
+        "Target": "J316cAP",
+        "TargetType": "j316c",
+        "Platform": "T6001",
+        "ProductType": "MacBookPro18,2",
+        "KernelMachOArchitecture": "arm64e",
+        "KernelPlatform": "T6000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x6001",
+        "BoardID": "0x0A"
+    },
+    {
+        "Target": "J375cAP",
+        "TargetType": "j375c",
+        "Platform": "T6001",
+        "ProductType": "Mac13,1",
+        "KernelMachOArchitecture": "arm64e",
+        "KernelPlatform": "T6000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x6001",
+        "BoardID": "0x04"
+    },
+    {
+        "Target": "J375dAP",
+        "TargetType": "j375d",
+        "Platform": "T6002",
+        "ProductType": "Mac13,2",
+        "KernelMachOArchitecture": "arm64e",
+        "KernelPlatform": "T6000",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x6002",
+        "BoardID": "0x0C"
+    }
+]

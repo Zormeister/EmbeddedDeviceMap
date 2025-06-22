@@ -1,0 +1,46 @@
+[
+    {
+        "Target": "RPi5BAP",
+        "TargetType": "rpi5b",
+        "Platform": "BCM2712",
+        "ProductType": "RaspberryPi5,1",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "BCM2712",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x2712",
+        "BoardID": "0x01"
+    },
+    {
+        "Target": "KBPi5AP",
+        "TargetType": "kbpi5",
+        "Platform": "BCM2712",
+        "ProductType": "KeyboardPi5,1",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "BCM2712",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x2712",
+        "BoardID": "0x10"
+    },
+    {
+        "Target": "CMPi5AP",
+        "TargetType": "cmpi5",
+        "Platform": "BCM2712",
+        "ProductType": "ComputePi5,1",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "BCM2712",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x2712",
+        "BoardID": "0x20"
+    },
+    {
+        "Target": "RPi5Br1AP",
+        "TargetType": "rpi5br1",
+        "Platform": "BCM2712d0",
+        "ProductType": "RaspberryPi5,2",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "BCM2712",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x2712",
+        "BoardID": "0x30"
+    }
+]

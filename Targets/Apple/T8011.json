@@ -1,0 +1,57 @@
+[
+    {
+        "Target": "J105aAP",
+        "TargetType": "j105a",
+        "Platform": "T8011",
+        "ProductType": "AppleTV6,2",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T8011",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8011",
+        "BoardID": "0x02"
+    },
+    {
+        "Target": "J207AP",
+        "TargetType": "j207",
+        "Platform": "T8011",
+        "ProductType": "iPad7,3",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T8011",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8011",
+        "BoardID": "0x04"
+    },
+    {
+        "Target": "J208AP",
+        "TargetType": "j208",
+        "Platform": "T8011",
+        "ProductType": "iPad7,4",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T8011",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8011",
+        "BoardID": "0x06"
+    },
+    {
+        "Target": "J120AP",
+        "TargetType": "j120",
+        "Platform": "T8011",
+        "ProductType": "iPad7,1",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T8011",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8011",
+        "BoardID": "0x0C"
+    },
+    {
+        "Target": "J121AP",
+        "TargetType": "j121",
+        "Platform": "T8011",
+        "ProductType": "iPad7,2",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T8011",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8011",
+        "BoardID": "0x0E"
+    }
+]

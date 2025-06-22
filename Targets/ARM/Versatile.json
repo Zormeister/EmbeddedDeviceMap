@@ -1,0 +1,24 @@
+[
+    {
+        "Target": "ARMVersatileAP",
+        "TargetType": "armversatile",
+        "Platform": "ARMVERSATILE",
+        "ProductType": "ARMVersa1,1",
+        "KernelMachOArchitecture": "armv6",
+        "KernelPlatform": "ARMVERSATILE",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x1136",
+        "BoardID": "0x10"
+    },
+    {
+        "Target": "VersaExpress15AP",
+        "TargetType": "versaexpress15",
+        "Platform": "VERSATILEEXPRESS",
+        "ProductType": "VersaExpress1,1",
+        "KernelMachOArchitecture": "armv7",
+        "KernelPlatform": "VERSATILEEXPRESS",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0xA150",
+        "BoardID": "0x01"
+    }
+]

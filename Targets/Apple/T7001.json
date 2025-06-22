@@ -1,0 +1,24 @@
+[
+    {
+        "Target": "J82AP",
+        "TargetType": "j82",
+        "Platform": "T7001",
+        "ProductType": "iPad5,4",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T7001",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x7001",
+        "BoardID": "0x02"
+    },
+    {
+        "Target": "J81AP",
+        "TargetType": "j81",
+        "Platform": "T7001",
+        "ProductType": "iPad5,3",
+        "KernelMachOArchitecture": "arm64",
+        "KernelPlatform": "T7001",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x7001",
+        "BoardID": "0x06"
+    }
+]
