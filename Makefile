@@ -5,6 +5,14 @@ SQL := sqlite3
 DB := device_map.db
 JSON := devices.json
 TGTCOMP := targetcompiler
+DARWIN_CFLAGS := -isystem /opt/homebrew/include -L/opt/homebrew/lib
+UNAME := $(shell uname)
+
+CFLAGS += -std=c++17 -ljsoncpp
+
+ifeq ($(UNAME),Darwin)
+CFLAGS += $(DARWIN_CFLAGS)
+endif
 
 ROOT_DIR = $(dir $(realpath $(lastword $(MAKEFILE_LIST))))
 
@@ -16,7 +24,7 @@ ROOT_DIR = $(dir $(realpath $(lastword $(MAKEFILE_LIST))))
 all: $(TGTCOMP) $(JSON) $(DB)
 
 targetcompiler:
-	$(CXX) $(ROOT_DIR)/targetcompiler.cpp -o $(ROOT_DIR)/targetcompiler -std=c++17 -ljsoncpp -isystem /usr/local/include
+	$(CXX) $(ROOT_DIR)/targetcompiler.cpp -o $(ROOT_DIR)/targetcompiler $(CFLAGS)
 
 devices.json:
 	$(ROOT_DIR)/targetcompiler -v --targets $(ROOT_DIR)/Targets --output devices.json
