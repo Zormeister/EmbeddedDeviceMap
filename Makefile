@@ -16,7 +16,7 @@ ROOT_DIR = $(dir $(realpath $(lastword $(MAKEFILE_LIST))))
 all: $(TGTCOMP) $(JSON) $(DB)
 
 targetcompiler:
-	$(CXX) $(ROOT_DIR)/targetcompiler.cpp -o $(ROOT_DIR)/targetcompiler -std=c++17 -ljsoncpp
+	$(CXX) $(ROOT_DIR)/targetcompiler.cpp -o $(ROOT_DIR)/targetcompiler -std=c++17 -ljsoncpp -isystem /usr/local/include
 
 devices.json:
 	$(ROOT_DIR)/targetcompiler -v --targets $(ROOT_DIR)/Targets --output devices.json
