@@ -1,13 +1,24 @@
 [
     {
-        "Target": "VMQEMUAP",
-        "TargetType": "vmqemu",
-        "Platform": "VMQEMU",
+        "Target": "VMQEMU64AP",
+        "TargetType": "vmqemu64",
+        "Platform": "VMQEMU64",
         "ProductType": "VMQEMU1,1",
         "KernelMachOArchitecture": "arm64",
         "KernelPlatform": "VMQEMU",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x564D",
         "BoardID": "0x01"
+    },
+    {
+        "Target": "VMQEMUV7AP",
+        "TargetType": "vmqemuv7",
+        "Platform": "VMQEMUv7",
+        "ProductType": "VMQEMU1,2",
+        "KernelMachOArchitecture": "armv7",
+        "KernelPlatform": "VMQEMU",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x564D",
+        "BoardID": "0x02"
     }
 ]
