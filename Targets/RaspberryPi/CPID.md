@@ -9,7 +9,7 @@ eg:
 
 These values also correspond to the IDs DarwinBoot asigns the SoCs, specifically [this file](https://github.com/Zormeister/DarwinBoot/blob/master/DarwinBoot/ARM/Machine/RPi/Data.c).
 
-This isn't a problem for BCM2711 and BCM2711 devices.
+This isn't a problem for BCM2711 and BCM2712 devices.
 
 One minor inconsistensy is that the ARM Integrator CP mapping uses the ID 0x1136, lacking a proper name for the CPU block, or series of digits.
 

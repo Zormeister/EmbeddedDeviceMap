@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F0F581DB2E260E8E007B36CB /* embedded_device_map */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F0F581DC2E260E8E007B36CB /* Build configuration list for PBXAggregateTarget "embedded_device_map" */;
+			buildPhases = (
+				F0F581F62E264A7A007B36CB /* ShellScript */,
+			);
+			dependencies = (
+				F0F581F42E264949007B36CB /* PBXTargetDependency */,
+			);
+			name = embedded_device_map;
+			packageProductDependencies = (
+			);
+			productName = embedded_device_map;
+		};
+		F0F581E12E26105F007B36CB /* device_map.db */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F0F581E22E26105F007B36CB /* Build configuration list for PBXAggregateTarget "device_map.db" */;
+			buildPhases = (
+				F0F581E72E261080007B36CB /* ShellScript */,
+				F0F581F52E264958007B36CB /* ShellScript */,
+			);
+			dependencies = (
+				F0F581E62E261078007B36CB /* PBXTargetDependency */,
+			);
+			name = device_map.db;
+			packageProductDependencies = (
+			);
+			productName = device_map.db;
+		};
+		F0F581EB2E2626EC007B36CB /* Compiled Devices JSON */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F0F581EC2E2626EC007B36CB /* Build configuration list for PBXAggregateTarget "Compiled Devices JSON" */;
+			buildPhases = (
+				F0F581EF2E2626F1007B36CB /* ShellScript */,
+			);
+			dependencies = (
+				F0F581F22E2648E7007B36CB /* PBXTargetDependency */,
+			);
+			name = "Compiled Devices JSON";
+			packageProductDependencies = (
+			);
+			productName = "Compiled Devices JSON";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		F0F581DA2E260DFE007B36CB /* targetcompiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0F581D92E260DFE007B36CB /* targetcompiler.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0F581E52E261078007B36CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F581AC2E260D0A007B36CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0F581B52E260D6A007B36CB;
+			remoteInfo = targetcompiler;
+		};
+		F0F581F12E2648E7007B36CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F581AC2E260D0A007B36CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0F581B52E260D6A007B36CB;
+			remoteInfo = targetcompiler;
+		};
+		F0F581F32E264949007B36CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F581AC2E260D0A007B36CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0F581E12E26105F007B36CB;
+			remoteInfo = device_map.db;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0F581B42E260D6A007B36CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F0F581B62E260D6A007B36CB /* targetcompiler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = targetcompiler; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F581BE2E260DA8007B36CB /* embedded_device_map.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = embedded_device_map.py; sourceTree = "<group>"; };
+		F0F581BF2E260DB3007B36CB /* S8000.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = S8000.json; sourceTree = "<group>"; };
+		F0F581C02E260DB3007B36CB /* S8001.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = S8001.json; sourceTree = "<group>"; };
+		F0F581C12E260DB3007B36CB /* S8003.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = S8003.json; sourceTree = "<group>"; };
+		F0F581C22E260DB3007B36CB /* SDK.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SDK.md; sourceTree = "<group>"; };
+		F0F581C32E260DB3007B36CB /* T600X.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = T600X.json; sourceTree = "<group>"; };
+		F0F581C42E260DB3007B36CB /* T7000.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = T7000.json; sourceTree = "<group>"; };
+		F0F581C52E260DB3007B36CB /* T7001.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = T7001.json; sourceTree = "<group>"; };
+		F0F581C62E260DB3007B36CB /* T8010.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = T8010.json; sourceTree = "<group>"; };
+		F0F581C72E260DB3007B36CB /* T8011.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = T8011.json; sourceTree = "<group>"; };
+		F0F581C82E260DB3007B36CB /* T8101.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = T8101.json; sourceTree = "<group>"; };
+		F0F581C92E260DB3007B36CB /* T8103.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = T8103.json; sourceTree = "<group>"; };
+		F0F581CA2E260DB3007B36CB /* T8122.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = T8122.json; sourceTree = "<group>"; };
+		F0F581CC2E260DB3007B36CB /* Integrator.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Integrator.json; sourceTree = "<group>"; };
+		F0F581CD2E260DB3007B36CB /* Versatile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Versatile.json; sourceTree = "<group>"; };
+		F0F581CF2E260DB3007B36CB /* VMQEMU.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = VMQEMU.json; sourceTree = "<group>"; };
+		F0F581D12E260DB3007B36CB /* BCM2708.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BCM2708.json; sourceTree = "<group>"; };
+		F0F581D22E260DB3007B36CB /* BCM2709.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BCM2709.json; sourceTree = "<group>"; };
+		F0F581D32E260DB3007B36CB /* BCM2710.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BCM2710.json; sourceTree = "<group>"; };
+		F0F581D42E260DB3007B36CB /* BCM2711.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BCM2711.json; sourceTree = "<group>"; };
+		F0F581D52E260DB3007B36CB /* BCM2712.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BCM2712.json; sourceTree = "<group>"; };
+		F0F581D62E260DB3007B36CB /* CPID.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CPID.md; sourceTree = "<group>"; };
+		F0F581D92E260DFE007B36CB /* targetcompiler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = targetcompiler.cpp; sourceTree = "<group>"; };
+		F0F581E82E2610C8007B36CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		F0F581E92E26110F007B36CB /* MAP.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MAP.md; sourceTree = "<group>"; };
+		F0F581EA2E26110F007B36CB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F0F581F02E2645F0007B36CB /* device_map.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = device_map.sql; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0F581B32E260D6A007B36CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0F581AB2E260D0A007B36CB = {
+			isa = PBXGroup;
+			children = (
+				F0F581D82E260DB3007B36CB /* Targets */,
+				F0F581BE2E260DA8007B36CB /* embedded_device_map.py */,
+				F0F581D92E260DFE007B36CB /* targetcompiler.cpp */,
+				F0F581E82E2610C8007B36CB /* Makefile */,
+				F0F581E92E26110F007B36CB /* MAP.md */,
+				F0F581EA2E26110F007B36CB /* README.md */,
+				F0F581F02E2645F0007B36CB /* device_map.sql */,
+				F0F581B72E260D6A007B36CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0F581B72E260D6A007B36CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0F581B62E260D6A007B36CB /* targetcompiler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0F581CB2E260DB3007B36CB /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				F0F581BF2E260DB3007B36CB /* S8000.json */,
+				F0F581C02E260DB3007B36CB /* S8001.json */,
+				F0F581C12E260DB3007B36CB /* S8003.json */,
+				F0F581C22E260DB3007B36CB /* SDK.md */,
+				F0F581C32E260DB3007B36CB /* T600X.json */,
+				F0F581C42E260DB3007B36CB /* T7000.json */,
+				F0F581C52E260DB3007B36CB /* T7001.json */,
+				F0F581C62E260DB3007B36CB /* T8010.json */,
+				F0F581C72E260DB3007B36CB /* T8011.json */,
+				F0F581C82E260DB3007B36CB /* T8101.json */,
+				F0F581C92E260DB3007B36CB /* T8103.json */,
+				F0F581CA2E260DB3007B36CB /* T8122.json */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		F0F581CE2E260DB3007B36CB /* ARM */ = {
+			isa = PBXGroup;
+			children = (
+				F0F581CC2E260DB3007B36CB /* Integrator.json */,
+				F0F581CD2E260DB3007B36CB /* Versatile.json */,
+			);
+			path = ARM;
+			sourceTree = "<group>";
+		};
+		F0F581D02E260DB3007B36CB /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				F0F581CF2E260DB3007B36CB /* VMQEMU.json */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		F0F581D72E260DB3007B36CB /* RaspberryPi */ = {
+			isa = PBXGroup;
+			children = (
+				F0F581D12E260DB3007B36CB /* BCM2708.json */,
+				F0F581D22E260DB3007B36CB /* BCM2709.json */,
+				F0F581D32E260DB3007B36CB /* BCM2710.json */,
+				F0F581D42E260DB3007B36CB /* BCM2711.json */,
+				F0F581D52E260DB3007B36CB /* BCM2712.json */,
+				F0F581D62E260DB3007B36CB /* CPID.md */,
+			);
+			path = RaspberryPi;
+			sourceTree = "<group>";
+		};
+		F0F581D82E260DB3007B36CB /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				F0F581CB2E260DB3007B36CB /* Apple */,
+				F0F581CE2E260DB3007B36CB /* ARM */,
+				F0F581D02E260DB3007B36CB /* Misc */,
+				F0F581D72E260DB3007B36CB /* RaspberryPi */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0F581B52E260D6A007B36CB /* targetcompiler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F581BD2E260D6A007B36CB /* Build configuration list for PBXNativeTarget "targetcompiler" */;
+			buildPhases = (
+				F0F581B22E260D6A007B36CB /* Sources */,
+				F0F581B32E260D6A007B36CB /* Frameworks */,
+				F0F581B42E260D6A007B36CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = targetcompiler;
+			packageProductDependencies = (
+			);
+			productName = EmbeddedDeviceMap;
+			productReference = F0F581B62E260D6A007B36CB /* targetcompiler */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0F581AC2E260D0A007B36CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					F0F581B52E260D6A007B36CB = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					F0F581DB2E260E8E007B36CB = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					F0F581E12E26105F007B36CB = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					F0F581EB2E2626EC007B36CB = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = F0F581AF2E260D0A007B36CB /* Build configuration list for PBXProject "EmbeddedDeviceMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0F581AB2E260D0A007B36CB;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = F0F581B72E260D6A007B36CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0F581B52E260D6A007B36CB /* targetcompiler */,
+				F0F581DB2E260E8E007B36CB /* embedded_device_map */,
+				F0F581E12E26105F007B36CB /* device_map.db */,
+				F0F581EB2E2626EC007B36CB /* Compiled Devices JSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0F581E72E261080007B36CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/device_map.db",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -f ${BUILT_PRODUCTS_DIR}/device_map.db ]; then\n    rm ${BUILT_PRODUCTS_DIR}/device_map.db\nfi\n\nsqlite3 ${BUILT_PRODUCTS_DIR}/device_map.db < ${SRCROOT}/device_map.sql\n\n";
+		};
+		F0F581EF2E2626F1007B36CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/devices.json",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${BUILT_PRODUCTS_DIR}/targetcompiler -v --targets $(SRCROOT)/Targets --output ${SRCROOT}/devices.json\n";
+		};
+		F0F581F52E264958007B36CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "install -d ${DSTROOT}/usr/local/standalone/firmware/\ninstall -m 0644 ${BUILT_PRODUCTS_DIR}/device_map.db ${DSTROOT}/usr/local/standalone/firmware/device_map.db\n";
+		};
+		F0F581F62E264A7A007B36CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "install -d ${DSTROOT}/usr/local/bin\ninstall -m 0755 ${SRCROOT}/embedded_device_map.py ${DSTROOT}/usr/local/bin/embedded_device_map\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0F581B22E260D6A007B36CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F581DA2E260DFE007B36CB /* targetcompiler.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0F581E62E261078007B36CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F581B52E260D6A007B36CB /* targetcompiler */;
+			targetProxy = F0F581E52E261078007B36CB /* PBXContainerItemProxy */;
+		};
+		F0F581F22E2648E7007B36CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F581B52E260D6A007B36CB /* targetcompiler */;
+			targetProxy = F0F581F12E2648E7007B36CB /* PBXContainerItemProxy */;
+		};
+		F0F581F42E264949007B36CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F581E12E26105F007B36CB /* device_map.db */;
+			targetProxy = F0F581F32E264949007B36CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0F581B02E260D0A007B36CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		F0F581B12E260D0A007B36CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		F0F581BB2E260D6A007B36CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/opt/homebrew/lib,
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ljsoncpp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/opt/homebrew/include,
+				);
+			};
+			name = Debug;
+		};
+		F0F581BC2E260D6A007B36CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/opt/homebrew/lib,
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ljsoncpp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/opt/homebrew/include,
+				);
+			};
+			name = Release;
+		};
+		F0F581DD2E260E8E007B36CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0F581DE2E260E8E007B36CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0F581E32E26105F007B36CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0F581E42E26105F007B36CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0F581ED2E2626EC007B36CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0F581EE2E2626EC007B36CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0F581AF2E260D0A007B36CB /* Build configuration list for PBXProject "EmbeddedDeviceMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F581B02E260D0A007B36CB /* Debug */,
+				F0F581B12E260D0A007B36CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F581BD2E260D6A007B36CB /* Build configuration list for PBXNativeTarget "targetcompiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F581BB2E260D6A007B36CB /* Debug */,
+				F0F581BC2E260D6A007B36CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F581DC2E260E8E007B36CB /* Build configuration list for PBXAggregateTarget "embedded_device_map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F581DD2E260E8E007B36CB /* Debug */,
+				F0F581DE2E260E8E007B36CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F581E22E26105F007B36CB /* Build configuration list for PBXAggregateTarget "device_map.db" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F581E32E26105F007B36CB /* Debug */,
+				F0F581E42E26105F007B36CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F581EC2E2626EC007B36CB /* Build configuration list for PBXAggregateTarget "Compiled Devices JSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F581ED2E2626EC007B36CB /* Debug */,
+				F0F581EE2E2626EC007B36CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0F581AC2E260D0A007B36CB /* Project object */;
+}

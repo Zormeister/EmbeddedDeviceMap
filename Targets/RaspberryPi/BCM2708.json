@@ -27,7 +27,7 @@
         "Platform": "BCM2835",
         "ProductType": "ComputePi1,1",
         "KernelMachOArchitecture": "armv6",
-        "KernelPlatform": "BCM2837",
+        "KernelPlatform": "BCM2835",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x2708",
         "BoardID": "0x10"

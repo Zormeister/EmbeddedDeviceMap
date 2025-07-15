@@ -1,3 +1,8 @@
 *.db
 targetcompiler
 devices.json
+build
+*.DS_Store
+EmbeddedDeviceMap.xcodeproj/project.xcworkspace
+
+EmbeddedDeviceMap.xcodeproj/xcuserdata
