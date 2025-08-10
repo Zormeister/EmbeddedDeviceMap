@@ -2,10 +2,10 @@
     {
         "Target": "J517AP",
         "TargetType": "j517",
-        "Platform": "T8103",
+        "Platform": "t8103",
         "ProductType": "iPad13,4",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8103",
+        "KernelPlatform": "t8103",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8103",
         "BoardID": "0x08"
@@ -13,10 +13,10 @@
     {
         "Target": "J517xAP",
         "TargetType": "j517x",
-        "Platform": "T8103",
+        "Platform": "t8103",
         "ProductType": "iPad13,5",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8103",
+        "KernelPlatform": "t8103",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8103",
         "BoardID": "0x0A"
@@ -24,10 +24,10 @@
     {
         "Target": "J518AP",
         "TargetType": "j518",
-        "Platform": "T8103",
+        "Platform": "t8103",
         "ProductType": "iPad13,6",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8103",
+        "KernelPlatform": "t8103",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8103",
         "BoardID": "0x0C"
@@ -35,10 +35,10 @@
     {
         "Target": "J518xAP",
         "TargetType": "j518x",
-        "Platform": "T8103",
+        "Platform": "t8103",
         "ProductType": "iPad13,7",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8103",
+        "KernelPlatform": "t8103",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8103",
         "BoardID": "0x0E"
@@ -46,10 +46,10 @@
     {
         "Target": "J407AP",
         "TargetType": "j407",
-        "Platform": "T8103",
+        "Platform": "t8103",
         "ProductType": "iPad13,16",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8103",
+        "KernelPlatform": "t8103",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8103",
         "BoardID": "0x10"
@@ -57,10 +57,10 @@
     {
         "Target": "J408AP",
         "TargetType": "j408",
-        "Platform": "T8103",
+        "Platform": "t8103",
         "ProductType": "iPad13,17",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8103",
+        "KernelPlatform": "t8103",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8103",
         "BoardID": "0x12"
@@ -68,10 +68,10 @@
         {
         "Target": "J522AP",
         "TargetType": "j522",
-        "Platform": "T8103",
+        "Platform": "t8103",
         "ProductType": "iPad13,8",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8103",
+        "KernelPlatform": "t8103",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8103",
         "BoardID": "0x18"
@@ -79,10 +79,10 @@
     {
         "Target": "J522xAP",
         "TargetType": "j522x",
-        "Platform": "T8103",
+        "Platform": "t8103",
         "ProductType": "iPad13,9",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8103",
+        "KernelPlatform": "t8103",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8103",
         "BoardID": "0x1A"
@@ -90,10 +90,10 @@
     {
         "Target": "J523AP",
         "TargetType": "j523",
-        "Platform": "T8103",
+        "Platform": "t8103",
         "ProductType": "iPad13,10",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8103",
+        "KernelPlatform": "t8103",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8103",
         "BoardID": "0x1C"
@@ -101,10 +101,10 @@
     {
         "Target": "J523xAP",
         "TargetType": "j523x",
-        "Platform": "T8103",
+        "Platform": "t8103",
         "ProductType": "iPad13,11",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8103",
+        "KernelPlatform": "t8103",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8103",
         "BoardID": "0x1E"
@@ -112,10 +112,10 @@
     {
         "Target": "J274AP",
         "TargetType": "j274",
-        "Platform": "T8103",
+        "Platform": "t8103",
         "ProductType": "Macmini9,1",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8103",
+        "KernelPlatform": "t8103",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8103",
         "BoardID": "0x22"
@@ -123,10 +123,10 @@
     {
         "Target": "J293AP",
         "TargetType": "j293",
-        "Platform": "T8103",
+        "Platform": "t8103",
         "ProductType": "MacBookPro17,1",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8103",
+        "KernelPlatform": "t8103",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8103",
         "BoardID": "0x24"
@@ -134,10 +134,10 @@
     {
         "Target": "J313AP",
         "TargetType": "j313",
-        "Platform": "T8103",
+        "Platform": "t8103",
         "ProductType": "MacBookAir10,1",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8103",
+        "KernelPlatform": "t8103",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8103",
         "BoardID": "0x26"
@@ -145,10 +145,10 @@
     {
         "Target": "J456AP",
         "TargetType": "j456",
-        "Platform": "T8103",
+        "Platform": "t8103",
         "ProductType": "iMac21,1",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8103",
+        "KernelPlatform": "t8103",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8103",
         "BoardID": "0x28"
@@ -156,10 +156,10 @@
     {
         "Target": "J457AP",
         "TargetType": "j457",
-        "Platform": "T8103",
+        "Platform": "t8103",
         "ProductType": "iMac21,2",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8103",
+        "KernelPlatform": "t8103",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8103",
         "BoardID": "0x2A"

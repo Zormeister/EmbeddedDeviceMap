@@ -5,7 +5,7 @@
         "Platform": "T8010",
         "ProductType": "iPhone9,1",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T8010",
+        "KernelPlatform": "t8010",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8010",
         "BoardID": "0x08"
@@ -16,7 +16,7 @@
         "Platform": "T8010",
         "ProductType": "iPhone9,2",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T8010",
+        "KernelPlatform": "t8010",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8010",
         "BoardID": "0x0A"
@@ -27,7 +27,7 @@
         "Platform": "T8010",
         "ProductType": "iPhone9,3",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T8010",
+        "KernelPlatform": "t8010",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8010",
         "BoardID": "0x0C"
@@ -35,10 +35,10 @@
     {
         "Target": "D111AP",
         "TargetType": "d111",
-        "Platform": "T8010",
+        "Platform": "t8010",
         "ProductType": "iPhone9,4",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T8010",
+        "KernelPlatform": "t8010",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8010",
         "BoardID": "0x0E"
@@ -49,7 +49,7 @@
         "Platform": "T8010",
         "ProductType": "iPod9,1",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T8010",
+        "KernelPlatform": "t8010",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8010",
         "BoardID": "0x16"
@@ -60,7 +60,7 @@
         "Platform": "T8010",
         "ProductType": "iPad7,5",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T8010",
+        "KernelPlatform": "t8010",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8010",
         "BoardID": "0x18"
@@ -71,7 +71,7 @@
         "Platform": "T8010",
         "ProductType": "iPad7,5",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T8010",
+        "KernelPlatform": "t8010",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8010",
         "BoardID": "0x1A"
@@ -82,7 +82,7 @@
         "Platform": "T8010",
         "ProductType": "iPad7,11",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T8010",
+        "KernelPlatform": "t8010",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8010",
         "BoardID": "0x1C"
@@ -93,7 +93,7 @@
         "Platform": "T8010",
         "ProductType": "iPad7,12",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T8010",
+        "KernelPlatform": "t8010",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8010",
         "BoardID": "0x1E"

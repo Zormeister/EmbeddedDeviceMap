@@ -2,10 +2,10 @@
     {
         "Target": "J127AP",
         "TargetType": "j127",
-        "Platform": "S8001",
+        "Platform": "s8001",
         "ProductType": "iPad6,3",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "S8001",
+        "KernelPlatform": "s8001",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8001",
         "BoardID": "0x08"
@@ -13,10 +13,10 @@
     {
         "Target": "J128AP",
         "TargetType": "j128",
-        "Platform": "S8001",
+        "Platform": "s8001",
         "ProductType": "iPad6,4",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "S8001",
+        "KernelPlatform": "s8001",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8001",
         "BoardID": "0x0A"

@@ -1,7 +1,7 @@
 [
     {
-        "Target": "IntegratorCPA6AP",
-        "TargetType": "integratorcpa6",
+        "Target": "IntCPA6AP",
+        "TargetType": "intcpa6",
         "Platform": "INTEGRATORCP",
         "ProductType": "IntegratorCP1,1",
         "KernelMachOArchitecture": "armv6",

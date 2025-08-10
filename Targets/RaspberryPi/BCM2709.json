@@ -5,7 +5,7 @@
         "Platform": "BCM2836",
         "ProductType": "RaspberryPi2,1",
         "KernelMachOArchitecture": "armv7",
-        "KernelPlatform": "BCM2836",
+        "KernelPlatform": "bcm2836",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x2709",
         "BoardID": "0x01"

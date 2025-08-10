@@ -5,7 +5,7 @@
         "Platform": "T6000",
         "ProductType": "MacBookPro18,3",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T6000",
+        "KernelPlatform": "t6000",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x6000",
         "BoardID": "0x08"
@@ -16,7 +16,7 @@
         "Platform": "T6000",
         "ProductType": "MacBookPro18,1",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T6000",
+        "KernelPlatform": "t6000",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x6000",
         "BoardID": "0x0A"
@@ -27,7 +27,7 @@
         "Platform": "T6001",
         "ProductType": "MacBookPro18,4",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T6000",
+        "KernelPlatform": "t6000",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x6001",
         "BoardID": "0x08"
@@ -38,7 +38,7 @@
         "Platform": "T6001",
         "ProductType": "MacBookPro18,2",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T6000",
+        "KernelPlatform": "t6000",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x6001",
         "BoardID": "0x0A"
@@ -49,7 +49,7 @@
         "Platform": "T6001",
         "ProductType": "Mac13,1",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T6000",
+        "KernelPlatform": "t6000",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x6001",
         "BoardID": "0x04"
@@ -60,7 +60,7 @@
         "Platform": "T6002",
         "ProductType": "Mac13,2",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T6000",
+        "KernelPlatform": "t6000",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x6002",
         "BoardID": "0x0C"

@@ -23,6 +23,8 @@ You can reference any of the non-Apple targets for a 'guide' on what a new Targe
 
 Usually this is the Target value, with the `AP` or `dev` trailer removed, alongside being in all lowercase, like how you see in Apple firmware payloads or in kernel compilation outputs.
 
+The TargetType field has a maximum length of 8 characters as of XNU 6153.141.1, this was bumped to 16 characters in XNU 7195.50.7.100.1
+
 ### Platform
 
 The Platform value usually indicates the specific SoC of the device, or alternatively, the name of the platform itself.
@@ -52,6 +54,8 @@ And likely others, such as armv5t, or armv4t.
 ### KernelPlatform
 
 This boils down to which `MACHINE_CONFIGS` value the device should use when building XNU.
+
+It also just so happens to be that this is the lowercase version.
 
 ### SDKPlatform
 

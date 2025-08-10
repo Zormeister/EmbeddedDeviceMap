@@ -5,7 +5,7 @@
         "Platform": "T8011",
         "ProductType": "AppleTV6,2",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T8011",
+        "KernelPlatform": "t8011",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8011",
         "BoardID": "0x02"
@@ -16,7 +16,7 @@
         "Platform": "T8011",
         "ProductType": "iPad7,3",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T8011",
+        "KernelPlatform": "t8011",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8011",
         "BoardID": "0x04"
@@ -27,7 +27,7 @@
         "Platform": "T8011",
         "ProductType": "iPad7,4",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T8011",
+        "KernelPlatform": "t8011",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8011",
         "BoardID": "0x06"
@@ -38,7 +38,7 @@
         "Platform": "T8011",
         "ProductType": "iPad7,1",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T8011",
+        "KernelPlatform": "t8011",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8011",
         "BoardID": "0x0C"
@@ -49,7 +49,7 @@
         "Platform": "T8011",
         "ProductType": "iPad7,2",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T8011",
+        "KernelPlatform": "t8011",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8011",
         "BoardID": "0x0E"

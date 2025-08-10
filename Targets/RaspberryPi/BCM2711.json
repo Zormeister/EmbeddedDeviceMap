@@ -5,7 +5,7 @@
         "Platform": "BCM2711",
         "ProductType": "RaspberryPi4,1",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "BCM2711",
+        "KernelPlatform": "bcm2711",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x2711",
         "BoardID": "0x01"
@@ -16,7 +16,7 @@
         "Platform": "BCM2711",
         "ProductType": "KeyboardPi4,1",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "BCM2711",
+        "KernelPlatform": "bcm2711",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x2711",
         "BoardID": "0x10"
@@ -27,7 +27,7 @@
         "Platform": "BCM2711",
         "ProductType": "ComputePi4,1",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "BCM2711",
+        "KernelPlatform": "bcm2711",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x2711",
         "BoardID": "0x20"

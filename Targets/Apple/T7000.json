@@ -5,7 +5,7 @@
         "Platform": "T7000",
         "ProductType": "iPhone7,1",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T7000",
+        "KernelPlatform": "t7000",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x7000",
         "BoardID": "0x04"
@@ -16,7 +16,7 @@
         "Platform": "T7000",
         "ProductType": "iPhone7,2",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T7000",
+        "KernelPlatform": "t7000",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x7000",
         "BoardID": "0x06"
@@ -27,7 +27,7 @@
         "Platform": "T7000",
         "ProductType": "iPad5,1",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T7000",
+        "KernelPlatform": "t7000",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x7000",
         "BoardID": "0x08"
@@ -38,7 +38,7 @@
         "Platform": "T7000",
         "ProductType": "iPad5,2",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T7000",
+        "KernelPlatform": "t7000",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x7000",
         "BoardID": "0x0A"
@@ -49,7 +49,7 @@
         "Platform": "T7000",
         "ProductType": "iPod7,1",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T7000",
+        "KernelPlatform": "t7000",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x7000",
         "BoardID": "0x10"
@@ -60,7 +60,7 @@
         "Platform": "T7000",
         "ProductType": "AudioAccessory1,2",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T7000",
+        "KernelPlatform": "t7000",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x7000",
         "BoardID": "0x1A"
@@ -71,7 +71,7 @@
         "Platform": "T7000",
         "ProductType": "AppleTV5,3",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T7000",
+        "KernelPlatform": "t7000",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x7000",
         "BoardID": "0x34"
@@ -82,7 +82,7 @@
         "Platform": "T7000",
         "ProductType": "AudioAccessory1,1",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "T7000",
+        "KernelPlatform": "t7000",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x7000",
         "BoardID": "0x38"

@@ -5,7 +5,7 @@
         "Platform": "VMQEMU64",
         "ProductType": "VMQEMU1,1",
         "KernelMachOArchitecture": "arm64",
-        "KernelPlatform": "VMQEMU",
+        "KernelPlatform": "vmqemu",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x564D",
         "BoardID": "0x01"
@@ -16,7 +16,7 @@
         "Platform": "VMQEMUv7",
         "ProductType": "VMQEMU1,2",
         "KernelMachOArchitecture": "armv7",
-        "KernelPlatform": "VMQEMU",
+        "KernelPlatform": "vmqemu",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x564D",
         "BoardID": "0x02"

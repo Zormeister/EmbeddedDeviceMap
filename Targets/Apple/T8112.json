@@ -2,10 +2,10 @@
     {
         "Target": "J617AP",
         "TargetType": "j617s",
-        "Platform": "T8112",
+        "Platform": "t8112",
         "ProductType": "iPad14,3",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8112",
+        "KernelPlatform": "t8112",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8112",
         "BoardID": "0x08"
@@ -13,10 +13,10 @@
     {
         "Target": "J618AP",
         "TargetType": "j618s",
-        "Platform": "T8112",
+        "Platform": "t8112",
         "ProductType": "iPad14,4",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8112",
+        "KernelPlatform": "t8112",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8112",
         "BoardID": "0x0A"
@@ -24,10 +24,10 @@
     {
         "Target": "J620AP",
         "TargetType": "j620",
-        "Platform": "T8112",
+        "Platform": "t8112",
         "ProductType": "iPad14,5",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8112",
+        "KernelPlatform": "t8112",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8112",
         "BoardID": "0x0C"
@@ -35,10 +35,10 @@
     {
         "Target": "J621AP",
         "TargetType": "j621",
-        "Platform": "T8112",
+        "Platform": "t8112",
         "ProductType": "iPad14,6",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8112",
+        "KernelPlatform": "t8112",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8112",
         "BoardID": "0x0E"
@@ -46,10 +46,10 @@
     {
         "Target": "J507AP",
         "TargetType": "j507",
-        "Platform": "T8112",
+        "Platform": "t8112",
         "ProductType": "iPad14,8",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8112",
+        "KernelPlatform": "t8112",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8112",
         "BoardID": "0x10"
@@ -57,10 +57,10 @@
     {
         "Target": "J508AP",
         "TargetType": "j508",
-        "Platform": "T8112",
+        "Platform": "t8112",
         "ProductType": "iPad14,9",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8112",
+        "KernelPlatform": "t8112",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8112",
         "BoardID": "0x12"
@@ -68,10 +68,10 @@
     {
         "Target": "J537AP",
         "TargetType": "j537",
-        "Platform": "T8112",
+        "Platform": "t8112",
         "ProductType": "iPad14,10",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8112",
+        "KernelPlatform": "t8112",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8112",
         "BoardID": "0x14"
@@ -79,10 +79,10 @@
     {
         "Target": "J538AP",
         "TargetType": "j538",
-        "Platform": "T8112",
+        "Platform": "t8112",
         "ProductType": "iPad14,11",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8112",
+        "KernelPlatform": "t8112",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8112",
         "BoardID": "0x16"
@@ -90,10 +90,10 @@
     {
         "Target": "J413AP",
         "TargetType": "j413",
-        "Platform": "T8112",
+        "Platform": "t8112",
         "ProductType": "Mac14,2",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8112",
+        "KernelPlatform": "t8112",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8112",
         "BoardID": "0x28"
@@ -101,10 +101,10 @@
     {
         "Target": "J493AP",
         "TargetType": "j493",
-        "Platform": "T8112",
+        "Platform": "t8112",
         "ProductType": "Mac14,7",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8112",
+        "KernelPlatform": "t8112",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8112",
         "BoardID": "0x2A"
@@ -112,10 +112,10 @@
     {
         "Target": "J415AP",
         "TargetType": "j415",
-        "Platform": "T8112",
+        "Platform": "t8112",
         "ProductType": "Mac14,15",
         "KernelMachOArchitecture": "arm64e",
-        "KernelPlatform": "T8112",
+        "KernelPlatform": "t8112",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x8112",
         "BoardID": "0x2E"

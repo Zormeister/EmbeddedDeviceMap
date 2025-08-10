@@ -2,10 +2,10 @@
     {
         "Target": "RPi1BAP",
         "TargetType": "rpi1b",
-        "Platform": "BCM2835",
+        "Platform": "bcm2835",
         "ProductType": "RaspberryPi1,1",
         "KernelMachOArchitecture": "armv6",
-        "KernelPlatform": "BCM2835",
+        "KernelPlatform": "bcm2835",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x2708",
         "BoardID": "0x01"
@@ -13,10 +13,10 @@
     {
         "Target": "RPi1AAP",
         "TargetType": "rpi1a",
-        "Platform": "BCM2835",
+        "Platform": "bcm2835",
         "ProductType": "RaspberryPi1,2",
         "KernelMachOArchitecture": "armv6",
-        "KernelPlatform": "BCM2835",
+        "KernelPlatform": "bcm2835",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x2708",
         "BoardID": "0x02"
@@ -24,10 +24,10 @@
     {
         "Target": "CMPi1AP",
         "TargetType": "cmpi1",
-        "Platform": "BCM2835",
+        "Platform": "bcm2835",
         "ProductType": "ComputePi1,1",
         "KernelMachOArchitecture": "armv6",
-        "KernelPlatform": "BCM2835",
+        "KernelPlatform": "bcm2835",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x2708",
         "BoardID": "0x10"
@@ -35,10 +35,10 @@
     {
         "Target": "RPi1BxAP",
         "TargetType": "rpi1bx",
-        "Platform": "BCM2835",
+        "Platform": "bcm2835",
         "ProductType": "RaspberryPi1,3",
         "KernelMachOArchitecture": "armv6",
-        "KernelPlatform": "BCM2835",
+        "KernelPlatform": "bcm2835",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x2708",
         "BoardID": "0x20"
@@ -46,10 +46,10 @@
     {
         "Target": "RPi1AxAP",
         "TargetType": "rpi1ax",
-        "Platform": "BCM2835",
+        "Platform": "bcm2835",
         "ProductType": "RaspberryPi1,4",
         "KernelMachOArchitecture": "armv6",
-        "KernelPlatform": "BCM2835",
+        "KernelPlatform": "bcm2835",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x2708",
         "BoardID": "0x21"
@@ -57,10 +57,10 @@
     {
         "Target": "RPiZeroAP",
         "TargetType": "rpizero",
-        "Platform": "BCM2835",
+        "Platform": "bcm2835",
         "ProductType": "MiniPi1,1",
         "KernelMachOArchitecture": "armv6",
-        "KernelPlatform": "BCM2835",
+        "KernelPlatform": "bcm2835",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x2708",
         "BoardID": "0x30"
@@ -68,10 +68,10 @@
     {
         "Target": "RPiZeroWAP",
         "TargetType": "rpizero",
-        "Platform": "BCM2835",
+        "Platform": "bcm2835",
         "ProductType": "MiniPi1,2",
         "KernelMachOArchitecture": "armv6",
-        "KernelPlatform": "BCM2835",
+        "KernelPlatform": "bcm2835",
         "SDKPlatform": "MacOSX",
         "ChipID": "0x2708",
         "BoardID": "0x31"
