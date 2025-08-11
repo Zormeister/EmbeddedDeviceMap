@@ -1,0 +1,24 @@
+[
+    {
+        "Target": "N27aAP",
+        "TargetType": "n27a",
+        "Platform": "s7002",
+        "ProductType": "Watch1,1",
+        "KernelMachOArchitecture": "armv7k",
+        "KernelPlatform": "s7002",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x7002",
+        "BoardID": "0x02"
+    },
+    {
+        "Target": "N28aAP",
+        "TargetType": "n28a",
+        "Platform": "S7002",
+        "ProductType": "Watch1,2",
+        "KernelMachOArchitecture": "armv7k",
+        "KernelPlatform": "s7002",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x7002",
+        "BoardID": "0x04"
+    }
+]

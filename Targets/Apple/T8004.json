@@ -1,0 +1,46 @@
+[
+    {
+        "Target": "N111sAP",
+        "TargetType": "n111s",
+        "Platform": "t8004",
+        "ProductType": "Watch3,1",
+        "KernelMachOArchitecture": "armv7k",
+        "KernelPlatform": "t8004",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8004",
+        "BoardID": "0x1C"
+    },
+    {
+        "Target": "N111bAP",
+        "TargetType": "n111b",
+        "Platform": "t8004",
+        "ProductType": "Watch3,2",
+        "KernelMachOArchitecture": "armv7k",
+        "KernelPlatform": "t8004",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8004",
+        "BoardID": "0x1E"
+    },
+    {
+        "Target": "N121sAP",
+        "TargetType": "n121s",
+        "Platform": "t8004",
+        "ProductType": "Watch3,3",
+        "KernelMachOArchitecture": "armv7k",
+        "KernelPlatform": "t8004",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8004",
+        "BoardID": "0x18"
+    },
+    {
+        "Target": "N121bAP",
+        "TargetType": "n121b",
+        "Platform": "t8004",
+        "ProductType": "Watch3,4",
+        "KernelMachOArchitecture": "armv7k",
+        "KernelPlatform": "t8004",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8004",
+        "BoardID": "0x1A"
+    }
+]

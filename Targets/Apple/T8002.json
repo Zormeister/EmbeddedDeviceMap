@@ -1,0 +1,57 @@
+[
+    {
+        "Target": "N74AP",
+        "TargetType": "n74",
+        "Platform": "t8002",
+        "ProductType": "Watch2,3",
+        "KernelMachOArchitecture": "armv7k",
+        "KernelPlatform": "t8002",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8002",
+        "BoardID": "0x0C"
+    },
+    {
+        "Target": "N75AP",
+        "TargetType": "n75",
+        "Platform": "t8002",
+        "ProductType": "Watch2,4",
+        "KernelMachOArchitecture": "armv7k",
+        "KernelPlatform": "t8002",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8002",
+        "BoardID": "0x0E"
+    },
+    {
+        "Target": "N27dAP",
+        "TargetType": "n27d",
+        "Platform": "t8002",
+        "ProductType": "Watch2,6",
+        "KernelMachOArchitecture": "armv7k",
+        "KernelPlatform": "t8002",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8002",
+        "BoardID": "0x02"
+    },
+    {
+        "Target": "N28dAP",
+        "TargetType": "n28d",
+        "Platform": "t8002",
+        "ProductType": "Watch2,7",
+        "KernelMachOArchitecture": "armv7k",
+        "KernelPlatform": "t8002",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8002",
+        "BoardID": "0x04"
+    },
+    {
+        "Target": "X619AP",
+        "TargetType": "x619",
+        "Platform": "t8002",
+        "ProductType": "iBridge1,1",
+        "KernelMachOArchitecture": "armv7k",
+        "KernelPlatform": "t8002",
+        "SDKPlatform": "MacOSX",
+        "ChipID": "0x8002",
+        "BoardID": "0x12"
+    }
+]
